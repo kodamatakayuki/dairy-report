@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'accepted' => ':attributeを承認してください。',
+    'boolean' => ':attributeは「はい」または「いいえ」で指定してください。',
+    'date' => ':attributeには有効な日付を指定してください。',
+    'date_format' => ':attributeの形式が正しくありません。',
+    'email' => ':attributeには有効なメールアドレスを指定してください。',
+    'exists' => '選択した:attributeが見つかりません。',
+    'in' => '選択した:attributeが正しくありません。',
+    'integer' => ':attributeには整数を指定してください。',
+    'max' => [
+        'string' => ':attributeは:max文字以内で入力してください。',
+        'numeric' => ':attributeには:max以下の値を指定してください。',
+    ],
+    'min' => [
+        'string' => ':attributeは:min文字以上で入力してください。',
+        'numeric' => ':attributeには:min以上の値を指定してください。',
+    ],
+    'not_in' => '選択した:attributeを指定できません。',
+    'regex' => ':attributeの形式が正しくありません。',
+    'required' => ':attributeを入力してください。',
+    'string' => ':attributeには文字列を指定してください。',
+    'unique' => 'この:attributeはすでに使用されています。',
+    'attributes' => [
+        'action' => '操作',
+        'comment_text' => 'コメント',
+        'content' => '日報内容',
+        'is_active' => '利用状態',
+        'is_leader' => 'リーダー設定',
+        'level' => '階層',
+        'login_id' => 'ログインID',
+        'name' => '名前',
+        'organization_id' => '所属組織',
+        'parent_id' => '上位組織',
+        'password' => 'パスワード',
+        'q' => '検索キーワード',
+        'report_date' => '日付',
+        'status' => '状態',
+        'system_role' => 'システム権限',
+        'title' => 'タイトル',
+    ],
+];
